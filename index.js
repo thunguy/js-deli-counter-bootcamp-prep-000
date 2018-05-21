@@ -20,7 +20,7 @@ function currentLine(line) {
   var numAndName = (`The line is currently: `)
   
   for (let i = 0; i < line.length; i++) { 
-    numAndName = numAndName + i + 1 + `. ${line[i]}, `
+    numAndName = numAndName + (i + 1) + `. ${line[i]}, `
   } 
   return numAndName
 }  
