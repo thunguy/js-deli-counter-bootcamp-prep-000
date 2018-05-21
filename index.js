@@ -22,6 +22,6 @@ function currentLine(line) {
   for (let i = 0; i < line.length; i++) { 
     numAndName = numAndName + (i + 1) + `. ${line[i]}, `
   } 
-  return numAndName.slice(-2)
+  return numAndName.slice(0, -2)
   
 }  
