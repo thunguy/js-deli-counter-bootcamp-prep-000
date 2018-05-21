@@ -19,7 +19,7 @@ function currentLine(line) {
   
   var numAndName = (`The line is currently: `)
   
-  for (let i = 1; i < line.length; i++) { 
+  for (let i = 0; i < line.length; i++) { 
     numAndName = numAndName + i + `. ${line[i]}, `
   } 
   return numAndName
