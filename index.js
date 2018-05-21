@@ -23,4 +23,5 @@ function currentLine(line) {
     numAndName = numAndName + (i + 1) + `. ${line[i]}, `
   } 
   return numAndName
+  
 }  
