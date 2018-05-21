@@ -17,10 +17,10 @@ function currentLine(line) {
     return (`The line is currently empty.`)
   }
   
-  var numAndName = `The line is currently: `
+  var numAndName = (`The line is currently: `)
   
   for (let i = 0; i < line.length; i++) { 
-    numAndName = numAndName + i + `. ${line[i]}`
+    numAndName = numAndName + '[i]' + `. ${line[i]}`
     
     return numAndName
   } 
