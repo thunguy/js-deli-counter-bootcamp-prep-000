@@ -21,7 +21,6 @@ function currentLine(line) {
   
   for (let i = 0; i < line.length; i++) { 
     numAndName = numAndName + i + `. ${line[i]}`
-
-    return numAndName
   } 
+  return numAndName
 }  
